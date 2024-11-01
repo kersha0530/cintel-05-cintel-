@@ -89,8 +89,6 @@ def reactive_calc_combined():
 
 ui.page_opts(title="Kersha: Live Data (Basic)", fillable=True)
 
-ui.tags.link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
-
 # ------------------------------------------------
 # Define the Shiny UI Page layout - Sidebar
 # ------------------------------------------------
