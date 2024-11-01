@@ -87,7 +87,9 @@ def reactive_calc_combined():
 # Set title to a string in quotes that will appear at the top
 # Set fillable to True to use the whole page width for the UI
 
-ui.page_opts(title="PyShiny Express: Live Data (Basic)", fillable=True)
+ui.page_opts(title="Kersha: Live Data (Basic)", fillable=True)
+
+ui.tags.link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
 
 # ------------------------------------------------
 # Define the Shiny UI Page layout - Sidebar
@@ -110,15 +112,16 @@ with ui.sidebar(open="open"):
 
     ui.h6("Links:")
 
+
     ui.a(
         "GitHub Source",
-        href="https://github.com/denisecase/cintel-05-cintel-basic",
+        href="https://github.com/kersha0530/cintel-05-cintel/tree/main",
         target="_blank",
     )
 
     ui.a(
         "GitHub App",
-        href="https://denisecase.github.io/cintel-05-cintel-basic/",
+        href="https://github.com/kersha0530/cintel-05-cintel/tree/main",
         target="_blank",
     )
 
