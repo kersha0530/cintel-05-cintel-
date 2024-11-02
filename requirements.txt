@@ -1,3 +1,6 @@
 faicons
 shiny
 shinylive
+shiny-express
+faicons
+matplotlib
